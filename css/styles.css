@@ -30,7 +30,6 @@ ul {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 3%;
-    text-decoration: none;
 }
 
 .logo .second {
@@ -40,6 +39,9 @@ ul {
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 3%;
+}
+
+.logo {
     text-decoration: none;
 }
 
