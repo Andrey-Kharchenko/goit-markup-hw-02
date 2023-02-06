@@ -25,23 +25,29 @@ ul {
 
 .logo-first {
     color: var(--color-brand);
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
 }
 
-.logo-second {
+.logo {
     color:var(--color-text-primary);
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
-.logo {
+.footer .logo-first {
+    color: var(--color-brand);
+}
+
+.footer .logo {
+    color: var(--button-filter-bcg);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
