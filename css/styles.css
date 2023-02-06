@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
 }
 
-.logo .first {
+.logo-first {
     color: var(--color-brand);
     font-family: 'Raleway';
     font-weight: 800;
@@ -32,7 +32,7 @@ ul {
     letter-spacing: 3%;
 }
 
-.logo .second {
+.logo-second {
     color:var(--color-text-primary);
     font-family: 'Raleway';
     font-weight: 800;
@@ -80,7 +80,11 @@ ul {
     color: var(--color-brand);
 }
 
-.hero-text {
+.hero {
+    background-color: var(--color-text-primary);
+}
+
+.hero .head {
     color: var(--color-white);
     font-weight: 700;
     font-size: 56px;
@@ -88,11 +92,13 @@ ul {
     letter-spacing: 2%;
 }
 
-.button {
+.hero .button {
     background-color: var(--color-brand);
     color: var(--color-white);
     font-weight: 500;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -117,8 +123,16 @@ ul {
     text-transform: capitalize;
 }
 
-.footer-descr {
+.footer .logo-second {
+    color: var(--button-filter-bcg);
+}
+
+.footer .descr {
     color: var(--color-footer)
+}
+
+.footer {
+    background-color: var(--color-text-primary)
 }
 
 .filter-button {
@@ -127,6 +141,8 @@ ul {
     font-weight: 500;
     letter-spacing: 4%;
     cursor: pointer;
+    border: 1px solid var(--color-footer);
+    border-radius: 4px;
 }
 
 .filter-button:hover,
