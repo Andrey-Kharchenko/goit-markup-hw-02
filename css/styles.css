@@ -1,0 +1,141 @@
+:root {
+--color-text-primary: #2E2F42;
+--color-text-secondary: #434455;
+--color-brand: #4D5AE5;
+--color-white: #FFFFFF;
+--color-footer: #E7E9FC;
+--button-hover: #404BBF;
+--button-filter-bcg: #F4F4FD;
+--line-height-h-text: 1.2;
+--line-height-p-text: 1.5;
+}
+
+body { 
+    color: var(--color-text-primary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2%;
+    line-height: var(--line-height-p-text)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo .first {
+    color: var(--color-brand);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+
+.logo .second {
+    color:var(--color-text-primary);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3%;
+    line-height: var(--line-height-p-text)  
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    text-decoration: underline;
+    color: var(--color-brand);
+}
+
+.site-nav .link.current {
+    color: var(--color-brand)
+}
+
+.header-adress {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2%; 
+    line-height: var(--line-height-p-text)  
+}
+
+.header-adress:hover,
+.header-adress:focus {
+    color: var(--color-brand);
+}
+
+.hero-text {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 2%;
+}
+
+.button {
+    background-color: var(--color-brand);
+    color: var(--color-white);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--button-hover);
+}
+
+.head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: var(--line-height-h-text)
+}
+
+.descr {
+    color: var(--color-text-secondary);
+}
+
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+.footer-descr {
+    color: var(--color-footer)
+}
+
+.filter-button {
+    color: var(--color-brand);
+    background-color: var(--button-filter-bcg);
+    font-weight: 500;
+    letter-spacing: 4%;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--color-white);
+    background-color: var(--button-hover);
+}
+
+
+
+
+
+
+
