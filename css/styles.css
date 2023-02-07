@@ -23,32 +23,22 @@ ul {
     list-style-type: none;
 }
 
-.logo-first {
-    color: var(--color-brand);
-}
-
 .logo {
-    color:var(--color-text-primary);
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.footer .logo-first {
     color: var(--color-brand);
-}
-
-.footer .logo {
-    color: var(--button-filter-bcg);
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+.logo .logo-second {
+    color: var(--color-text-primary);
+}
+
+.footer .logo-second {
+    color: var(--button-filter-bcg);
 }
 
 .site-nav .link {
@@ -137,10 +127,6 @@ ul {
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
-}
-
-.footer .logo-second {
-    color: var(--button-filter-bcg);
 }
 
 .footer .descr {
